@@ -9,7 +9,7 @@ Here are some quick examples of the different types of auto-graded assessments a
 Auto-graded assessments are linked to Codio's [Learning Insights](https://www.codio.com/blog/codio-advanced-student-learning-insights) dashboard. The dashboard gives you and your students valuable feedback on performance.
 
 ### Assessment Library
-Codio has an assessment library with hundreds of assessments (mostly Python and Java). You can search the assessments by entering a tag and its value. The tags are those topics in the gray boxes, and the value is what comes after. So if you wanted to see all of the Python assessments, you would use `Programming Language` as the tag and `Python` as the value. You can add additional parameters to make your search result more precise.
+Codio has an assessment library with hundreds of assessments in a variety of languages. You can search the assessments by entering a tag and its value. The tags are those topics in the gray boxes, and the value is what comes after. So if you wanted to see all of the C++ assessments, you would use `Programming Language` as the tag and `C++` as the value. You can add additional parameters to make your search result more precise. Clients can create their own assessment library that can be shared with colleagues.
 
 ![Assessment Library](.guides/img/assessment-library.png)
 

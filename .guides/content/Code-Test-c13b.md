@@ -2,15 +2,19 @@
 
 ## Standard Code Test
 
-Write a program that takes an integer from the user. Return the number multiplied by three. If the user enters a non-integer data type, return the following message:
+Write a program that accepts a number and then multiplies that number by three. Here are some examples of input and expected output.
 
-`Please enter an integer`
+|Example Input|Expected Output|
+|:-----------:|:-------------:|
+|-5           |-15            |
+|0            |0              |
+|3            |9              |
 
-**Note**, it is important that there is no string prompting the user to input a number. The string will cause the code test to fail.
+{Compile code}(g++ -o code/code_test code/code_test.cpp)
+{Test Code with -5}(code/code_test -5)
+{Test Code with 0}(code/code_test 0)
+{Test Code with 3}(code/code_test 3)
 
-[Code Visualizer](open_tutor code/code_test.py)
-{try it|terminal}(python3 code/code_test.py)
+<details><summary>**Adding the Terminal**</summary>You can add the terminal to the `TEST CODE` button by changing the markdown code to `{test code|terminal}(code/code_test)`. To add a terminal to the UI, click on the gear icon, and select "3 Panels without tree" as the layout. Then click on "Open tabs" and add a tab. Select "Terminal" as the type, and set the panel to 1. If you do not add a terminal to the UI, Codio will open one automatically in the same panel as the C++ code. The terminal will be in a separate tab from the code.</details>
 
-<details><summary>**Adding the Terminal**</summary>You can add the terminal to the `TRY IT` button by changing the markdown code to `{try it|terminal}(python3 code_test.py)`. To add a terminal to the UI, click on the gear icon, and select "3 Panels without tree" as the layout. Then click on "Open tabs" and add a tab. Select "Terminal" as the type, and set the panel to 1. If you do not add a terminal to the UI, Codio will open one automatically in the same panel as the Python code. The terminal will be in a separate tab from the code.</details>
-
-{Check It!|assessment}(code-output-compare-2673740583)
+{Check It!|assessment}(code-output-compare-3274365764)

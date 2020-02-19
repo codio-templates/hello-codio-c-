@@ -14,11 +14,11 @@ It is a good idea to explicitly state the layout you want. Closing tabs from pre
 ### Code Editor
 To use the code editor, add a programming file to your project. Right-click on the name of your project or book in the directory tree on the left. Select `New File...` and then type its name and file extension.
 
-![.guides/img/create_new_file](.guides/img/create_new_file.png)
+![.guides/img/create_new_file](.guides/img/add_cpp_file.png)
 
 The next step is to load this file into a panel of your layout. Click on the gear icon again, and click on the `Open Tabs` button. You can click the button and type the file's path to add a new file to the layout. Or, you drag the file from the directory tree onto the page. There is a preview option for documents, which allows you to see the output of an HTML/CSS/JS project.
 
-![.guides/img/coding_file](.guides/img/coding_file.png)
+![.guides/img/coding_file](.guides/img/open_cpp_file.png)
 
 This file will open with the guide. The file will remain opened until the student closes the tab. This is why it is a good idea to tell Codio to close any previously opened tabs when selecting the layout.
 
@@ -32,12 +32,12 @@ You will notice a folder called `.guides` in the directory tree. All of the info
 
 Add the image to the guide using markdown syntax.
 
-### Try It Button
+### Compile and Run Buttons
 
-Codio has syntax to add a [custom button](https://codio.com/docs/content/authoring/page-edit/buttons/) to your guide. On the previous page, the `TRY IT` button runs the command `python3 python_demo.py` and prints the output to the guide. The terminal can always be added to a panel if you would rather have students interact with the command line.
+Codio has syntax to add a [custom button](https://codio.com/docs/content/authoring/page-edit/buttons/) to your guide. On the previous page, the `COMPILE CODE` button runs the command `g++ -o cpp_demo2 cpp_demo.cpp` and the `RUN CODE` button runs the command `./cpp_demo`. The terminal can always be added to a panel if you would rather have students interact with the command line.
 
 ### Code Visualizer
-Codio has integrate the [Python Tutor](http://pythontutor.com/) into its platform. It works with a variety of languages (despite its name). To add a code visualizer to your guide, use the following syntax `[Code Visualizer](open_tutor your_file.py)`.
+Codio integrates the [Python Tutor](http://pythontutor.com/) into its platform. It works with a variety of languages (despite its name). To add a code visualizer to your guide, use the following syntax `[Code Visualizer](open_tutor your_file.cpp)`.
 
 ### Code Highlighting
-You can create links that [highlight](https://codio.com/docs/content/authoring/page-edit/inline/) sections of code. It is important to note that opening a file with highlighting will retain the highlighting. Adding another like to open the same file without highlighting will "remove" the highlighting.
+You can create links that [highlight](https://codio.com/docs/content/authoring/page-edit/inline/) sections of code. It is important to note that opening a file with highlighting will retain the highlighting. Adding another link to open the same file without highlighting will "remove" the highlighting.

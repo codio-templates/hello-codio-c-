@@ -2,14 +2,14 @@
  "sections": [
   {
    "id": "5eb6898c-82ee-c13d-2329-656550ae65c9",
-   "title": "Python Demo",
+   "title": "C++ Demo",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
     },
     {
-     "path": "python_demo.py",
+     "path": "cpp_demo.cpp",
      "panel": 0,
      "action": "open"
     }
@@ -17,7 +17,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Python-Demo-5eb6.md",
+   "content-file": ".guides/content/C---Demo-5eb6.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
@@ -62,7 +62,7 @@
      "action": "close"
     },
     {
-     "path": "code/code_test.py",
+     "path": "code/code_test.cpp",
      "panel": 0,
      "action": "open"
     }

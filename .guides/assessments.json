@@ -6,10 +6,10 @@
    "name": "Demo Question",
    "showName": false,
    "instructions": "## Reading Question\nRearrange the code blocks below to create a loop that iterates over a list and prints each element of the list. **Note**, some of the code blocks will not be used.",
-   "initial": "animals = [\"cat\", \"dog\", \"fish\", \"rabbit\"]\nfor animal in animals:\n    print(\"Animal #{} is a {}.\".format(animals.index(animal) + 1, animal))\nfor animals in animal: #distractor\nfor animal in pets: #distractor",
+   "initial": "char animals[4] = {\"cat\", \"dog\", \"fish\", \"rabbit\"};\nfor (int i = 0; i < 4; ++i) {\n  cout << animals[i] << \\n\n}\nfor (int i = 0, i < 4, ++i) { #distractor\nfor (++i; int i  0; i < 4) {#distractor",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "",
-   "guidance": "The first line needs to be the list declaration. You cannot iterate over a list that does not exist. There are three possible choices for the loop. There is no list named `pets` so that option can be ignored. The loop that says `for animals in animal:` expects there to be a list named `animal` while `animals` would represent each element in the list. The order is reversed. Don't forget to indent the print statement.\n\n```python\nanimals = [\"cat\", \"dog\", \"fish\", \"rabbit\"]\nfor animal in animals:\n    print(\"Animal #{} is a {}.\".format(animals.index(animal) + 1, animal))\n```",
+   "guidance": "The first line needs to be the array declaration. You cannot iterate over an array that does not exist. There are three possible choices for the loop. C++ uses the `;` to separate the three parts of a for loop, so the answer with a `,` is incorrect. When using for loops, declare the iterator variable first, then create the test condition, and finally increment the iterator variable. Don't forget to indent the `cout` statement and add the `}` to terminate the loop.\n\n```python\nchar animals[4] = {\"cat\", \"dog\", \"fish\", \"rabbit\"};\nfor (int i = 0; i < 4; ++i) {\n  cout << animals[i] << \\n\n}\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -21,13 +21,14 @@
      }
     ],
     "files": [
+     "cpp_demo.cpp",
      "python_demo.py"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "python_demo.py"
+      "content": "cpp_demo.cpp"
      }
     ]
    },
@@ -41,31 +42,31 @@
   "source": {
    "name": "Practice MCQ",
    "showName": false,
-   "instructions": "## Multiple Choice Question\nFrom what TV show did Python take its name?",
+   "instructions": "## Multiple Choice Question\nWho is the creator of C++?",
    "multipleResponse": false,
    "answers": [
     {
      "_id": "448c7d4d-72d0-9b3e-3589-670669d72e51",
      "correct": false,
-     "answer": "National Geographic"
+     "answer": "Guido van Rossum"
     },
     {
      "_id": "d84086ba-a7d2-a56f-5797-d25d50b7c06f",
      "correct": true,
-     "answer": "Monty Python's Flying Circus"
+     "answer": "Bjarne Stroustrup"
     },
     {
      "_id": "7a53cab5-f47f-40cb-d68d-86470ef77d54",
      "correct": false,
-     "answer": "Snakes on a Plane"
+     "answer": "Brendan Eich"
     },
     {
      "_id": "f0022a14-96e7-ace0-c96e-7ab7c6ef82f2",
      "correct": false,
-     "answer": "Cobra Kai"
+     "answer": "Larry Wall"
     }
    ],
-   "guidance": "Python took its name from Monty Python's Flying Circus.",
+   "guidance": "Bjarne Stroustrup is the creator of C++. Stroustrup began work on a successor to the C language in 1982 as a member of Bell Labs. The first version of C++ was released in 1985.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -210,6 +211,72 @@
       "type": "file",
       "panelNumber": 0,
       "content": "code/code_test.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-3274365764",
+  "source": {
+   "name": "standard code test example cpp",
+   "showName": false,
+   "instructions": "Submit your code when ready",
+   "command": "code/code_test",
+   "preExecuteCommand": "g++ -o code/code_test code/code_test.cpp",
+   "guidance": "Here is one possible solution:\n\n```cpp\n#include <iostream> \nusing namespace std; \n\nint main(int argc, char **argv) \n{ \n  int num = stoi(argv[1]); // typecast the string to an int\n  cout << num * 3;         // print the int multiplied by 3\n\n  return 0; \n} \n```\n\nHere are a couple of things to keep in mind:\n* `char **argv` is a vector of all of the arguments for your program. These arguments are strings.\n* `stoi` allows you to typecast strings to integers.\n* The first element of argument vector (`argv[0]`) is always the program name. So the number passed to your program will be `argv[1]`.",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "9",
+     "input": "",
+     "output": "27",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "-10",
+     "input": "",
+     "output": "-30",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "12",
+     "input": "",
+     "output": "36",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/code_test.cpp"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/code_test.cpp"
      }
     ]
    },
