@@ -28,7 +28,7 @@ int main () {
 
 |||challenge
 ## What happens if you:
-* Change the [cout statement](open_file cpp_demo.cpp panel=0 ref="cout" count=1) to `cout << numbers << endl`?
+* Change the [cout statement](open_file cpp_demo.cpp panel=0 ref="cout" count=1) to `cout << numbers[n];`?
 
 [Remove highlighting](open_file cpp_demo.cpp panel=0)
 
