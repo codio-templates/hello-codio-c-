@@ -65,5 +65,22 @@
     "state": "fail"
    }
   ]
+ },
+ {
+  "taskId": "code-output-compare-2652871619",
+  "points": 1,
+  "results": [
+   {
+    "code": 0,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"Hello world\\n\"}]}",
+    "expectedOutputs": [
+     {
+      "output": "Hello world"
+     }
+    ],
+    "timestamp": 1582296354836,
+    "state": "pass"
+   }
+  ]
  }
 ]
