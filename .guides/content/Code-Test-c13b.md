@@ -15,6 +15,27 @@ Write a program that accepts a number and then multiplies that number by three. 
 {Test Code with 0}(code/code_test 0)
 {Test Code with 3}(code/code_test 3)
 
-<details><summary>**Adding the Terminal**</summary>You can add the terminal to the `TEST CODE` button by changing the markdown code to `{test code|terminal}(code/code_test)`. To add a terminal to the UI, click on the gear icon, and select "3 Panels without tree" as the layout. Then click on "Open tabs" and add a tab. Select "Terminal" as the type, and set the panel to 1. If you do not add a terminal to the UI, Codio will open one automatically in the same panel as the C++ code. The terminal will be in a separate tab from the code.</details>
+<table><tbody ><tr><td><details><summary>
+	<strong>Solution</strong>
+</summary>
+
+Here is one solution to the problem. You can copy/paste it into the IDE if you would like.
+
+```cpp
+#include <iostream> 
+using namespace std; 
+
+int main(int argc, char **argv) 
+{ 
+  int num = stoi(argv[1]); // typecast the string to an int
+  cout << num * 3;         // print the int multiiplied by 3
+
+  return 0; 
+} 
+```
+	
+</details></td></tr></tbody>
+</table>
+
 
 {Check It!|assessment}(code-output-compare-3274365764)
