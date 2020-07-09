@@ -6,10 +6,10 @@
    "name": "Demo Question",
    "showName": false,
    "instructions": "## Reading Question\nRearrange the code blocks below to create a loop that iterates over a list and prints each element of the list. **Note**, some of the code blocks will not be used.",
-   "initial": "char animals[4] = {\"cat\", \"dog\", \"fish\", \"rabbit\"};\nfor (int i = 0; i < 4; ++i) {\n  cout << animals[i] << \\n\n}\nfor (int i = 0, i < 4, ++i) { #distractor\nfor (++i; int i  0; i < 4) {#distractor",
-   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
-   "grader": "",
-   "guidance": "The first line needs to be the array declaration. You cannot iterate over an array that does not exist. There are three possible choices for the loop. C++ uses the `;` to separate the three parts of a for loop, so the answer with a `,` is incorrect. When using for loops, declare the iterator variable first, then create the test condition, and finally increment the iterator variable. Don't forget to indent the `cout` statement and add the `}` to terminate the loop.\n\n```python\nchar animals[4] = {\"cat\", \"dog\", \"fish\", \"rabbit\"};\nfor (int i = 0; i < 4; ++i) {\n  cout << animals[i] << \\n\n}\n```",
+   "initial": "char animals[4] = {\"cat\", \"dog\", \"fish\", \"rabbit\"};\nfor (int i = 0; i < 4; ++i) {\n  cout << animals[i] << endl\n}\nfor (int i = 0, i < 4, ++i) {          #distractor\nfor (++i; int i  0; i < 4) {         #distractor",
+   "options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"trashId\":\"sortableTrash\"}",
+   "grader": "1",
+   "guidance": "The first line needs to be the array declaration. You cannot iterate over an array that does not exist. There are three possible choices for the loop. C++ uses the `;` to separate the three parts of a for loop, so the answer with a `,` is incorrect. When using for loops, declare the iterator variable first, then create the test condition, and finally increment the iterator variable. Don't forget to indent the `cout` statement and add the `}` to terminate the loop.\n\n```python\nchar animals[4] = {\"cat\", \"dog\", \"fish\", \"rabbit\"};\nfor (int i = 0; i < 4; ++i) {\n  cout << animals[i] << endl\n}\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -66,7 +66,7 @@
      "answer": "Larry Wall"
     }
    ],
-   "guidance": "Bjarne Stroustrup is the creator of C++. Stroustrup began work on a successor to the C language in 1982 as a member of Bell Labs. The first version of C++ was released in 1985.",
+   "guidance": "Bjarne Stroustrup is the creator of C\\++. Stroustrup began work on a successor to the C language in 1982 as a member of Bell Labs. The first version of C\\++ was released in 1985.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -92,8 +92,8 @@
    "name": "Fill in the Blank Demo Question",
    "showName": false,
    "instructions": "## Fill in the Blank\nFill in the blanks below.",
-   "text": "True or False: Python is a compiled language. <<<False>>>\nTrue or False: You do not use semi-colons at the end of each line of code in Python. <<<True>>>",
-   "guidance": "Python is an interpreted language.\nPython does not use semi-colons. Instead it uses whitespace.",
+   "text": "True or False: C++ is an interpreted language. <<<False>>>\nTrue or False: You must use semi-colons at the end of each line of code in C++. <<<True>>>",
+   "guidance": "C\\++ is compiled language.\nC\\++ requires the use of semi-colons.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -116,11 +116,12 @@
      "True"
     ],
     "text": [
-     "True or False: Python is a compiled language. ",
+     "True or False: C++ is an interpreted language. ",
      0,
-     "\nTrue or False: You do not use semi-colons at the end of each line of code in Python. ",
+     "\nTrue or False: You must use semi-colons at the end of each line of code in C++. ",
      0
-    ]
+    ],
+    "regexPositions": []
    }
   }
  },

@@ -1,0 +1,64 @@
+[
+ {
+  "taskId": "parsons-puzzle-2650837085",
+  "points": 0,
+  "state": {
+   "trashHash": null,
+   "solutionHash": null,
+   "toggleStates": "{}"
+  },
+  "results": []
+ },
+ {
+  "taskId": "multiple-choice-1981899322",
+  "points": 0,
+  "state": {
+   "active": "d84086ba-a7d2-a56f-5797-d25d50b7c06f"
+  },
+  "results": []
+ },
+ {
+  "taskId": "fill-in-the-blanks-2837664483",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "code-output-compare-3274365764",
+  "points": 1,
+  "results": [
+   {
+    "guidance": "Here is one possible solution:\n\n```cpp\n#include <iostream> \nusing namespace std; \n\nint main(int argc, char **argv) \n{ \n  int num = stoi(argv[1]); // typecast the string to an int\n  cout << num * 3;         // print the int multiplied by 3\n\n  return 0; \n} \n```\n\nHere are a couple of things to keep in mind:\n* `char **argv` is a vector of all of the arguments for your program. These arguments are strings.\n* `stoi` allows you to typecast strings to integers.\n* The first element of argument vector (`argv[0]`) is always the program name. So the number passed to your program will be `argv[1]`.",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"27\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"-30\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"36\"}]}",
+    "timestamp": 1594312282734,
+    "state": "pass"
+   },
+   {
+    "guidance": "Here is one possible solution:\n\n```cpp\n#include <iostream> \nusing namespace std; \n\nint main(int argc, char **argv) \n{ \n  int num = stoi(argv[1]); // typecast the string to an int\n  cout << num * 3;         // print the int multiplied by 3\n\n  return 0; \n} \n```\n\nHere are a couple of things to keep in mind:\n* `char **argv` is a vector of all of the arguments for your program. These arguments are strings.\n* `stoi` allows you to typecast strings to integers.\n* The first element of argument vector (`argv[0]`) is always the program name. So the number passed to your program will be `argv[1]`.",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"27\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"-30\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"36\"}]}",
+    "timestamp": 1594312266338,
+    "state": "pass"
+   },
+   {
+    "guidance": "Here is one possible solution:\n\n```cpp\n#include <iostream> \nusing namespace std; \n\nint main(int argc, char **argv) \n{ \n  int num = stoi(argv[1]); // typecast the string to an int\n  cout << num * 3;         // print the int multiplied by 3\n\n  return 0; \n} \n```\n\nHere are a couple of things to keep in mind:\n* `char **argv` is a vector of all of the arguments for your program. These arguments are strings.\n* `stoi` allows you to typecast strings to integers.\n* The first element of argument vector (`argv[0]`) is always the program name. So the number passed to your program will be `argv[1]`.",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"27\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"-30\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"36\"}]}",
+    "timestamp": 1594312246957,
+    "state": "pass"
+   },
+   {
+    "guidance": "Here is one possible solution:\n\n```cpp\n#include <iostream> \nusing namespace std; \n\nint main(int argc, char **argv) \n{ \n  int num = stoi(argv[1]); // typecast the string to an int\n  cout << num * 3;         // print the int multiplied by 3\n\n  return 0; \n} \n```\n\nHere are a couple of things to keep in mind:\n* `char **argv` is a vector of all of the arguments for your program. These arguments are strings.\n* `stoi` allows you to typecast strings to integers.\n* The first element of argument vector (`argv[0]`) is always the program name. So the number passed to your program will be `argv[1]`.",
+    "output": "{\"sequence\": [{\"returnCode\": 134, \"stderr\": \"terminate called after throwing an instance of 'std::logic_error'\\n  what():  basic_string::_M_construct null not valid\\nAborted (core dumped)\\n\", \"passed\": false, \"stdout\": \"\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"-30\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"36\"}]}",
+    "timestamp": 1594312201425,
+    "state": "fail"
+   },
+   {
+    "guidance": "Here is one possible solution:\n\n```cpp\n#include <iostream> \nusing namespace std; \n\nint main(int argc, char **argv) \n{ \n  int num = stoi(argv[1]); // typecast the string to an int\n  cout << num * 3;         // print the int multiplied by 3\n\n  return 0; \n} \n```\n\nHere are a couple of things to keep in mind:\n* `char **argv` is a vector of all of the arguments for your program. These arguments are strings.\n* `stoi` allows you to typecast strings to integers.\n* The first element of argument vector (`argv[0]`) is always the program name. So the number passed to your program will be `argv[1]`.",
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"27\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"-30\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"36\"}]}",
+    "timestamp": 1594290787305,
+    "state": "pass"
+   }
+  ]
+ }
+]
