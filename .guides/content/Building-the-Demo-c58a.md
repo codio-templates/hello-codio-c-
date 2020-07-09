@@ -41,8 +41,7 @@ You will notice a folder called `.guides` in the File Tree. To view the File Tre
 Add the image to the guide using markdown syntax.
 
 ### Compile and Run Buttons
-
-Codio has syntax to add a [custom button](https://codio.com/docs/content/authoring/page-edit/buttons/) to your guide. On the previous page, the `COMPILE CODE` button runs the command `g++ -o cpp_demo2 cpp_demo.cpp` and the `RUN CODE` button runs the command `./cpp_demo`. The terminal can always be added to a panel if you would rather have students interact with the command line.
+Codio has syntax to add a [custom button](https://docs.codio.com/courses/authoring/#custom-buttons) to your guide. On the previous page, the `TRY IT` button runs the command `python3 python_demo.py` and prints the output to the guide. The terminal can always be added to a panel if you would rather have students interact with the command line.
 
 ### Code Visualizer
 Codio integrates the [Python Tutor](http://pythontutor.com/) into its platform. It works with a variety of languages (despite its name). To add a code visualizer to your guide, use the following syntax `[Code Visualizer](open_tutor your_file.cpp)`.
