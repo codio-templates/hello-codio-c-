@@ -6,8 +6,11 @@ C++ allows you to iterate over a list. That means starting with the first elemen
 
 ![Iterating Over an Array](.guides/img/array-iterate.png)
 
-<details><summary>**`endl` or `"\n"`?**</summary>Both `endl` and `"\n"` will add a newline character to the output. Either one will work. Remember `endl` does not need quotation marks, while `"\n"` must have them.</details>
-  
+<details>
+	<summary><b><code>endl</code> or <code>"\n"</code>?</b></summary>
+	Both <code>endl</code> and <code>"\n"</code> will add a newline character to the output. Either one will work. Remember <code>endl</code> does not need quotation marks, while <code>"\n"</code> must have them.
+</details>
+
 ```cpp
 #include <iostream>
 using namespace std;
