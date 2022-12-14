@@ -1,0 +1,52 @@
+{
+	"source": {
+		"bloomsObjectiveLevel": "",
+		"command": "bash .guides/hello_world.sh",
+		"guidance": "Explanation of the solution goes here.",
+		"instructions": "Write a program that prints `Hello world`. Check your code before submitting it.",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [
+				"code/test2.cpp"
+			],
+			"opened": [
+				{
+					"content": "code/test2.cpp",
+					"panelNumber": 0,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			]
+		},
+		"name": "Hello World Test",
+		"oneTimeTest": false,
+		"options": {
+			"ignoreCase": true,
+			"ignoreNewline": true,
+			"ignoreWhitespaces": true,
+			"matchSubstring": false,
+			"timeout": 30
+		},
+		"points": 1,
+		"preExecuteCommand": "",
+		"sequence": [
+			{
+				"arguments": "",
+				"feedback": "",
+				"input": "",
+				"output": "Hello world",
+				"showFeedback": false
+			}
+		],
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponse": true,
+		"showName": true
+	},
+	"taskId": "code-output-compare-2652871619",
+	"type": "code-output-compare"
+}

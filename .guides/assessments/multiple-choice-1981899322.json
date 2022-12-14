@@ -1,0 +1,49 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "448c7d4d-72d0-9b3e-3589-670669d72e51",
+				"answer": "Guido van Rossum",
+				"correct": false
+			},
+			{
+				"_id": "d84086ba-a7d2-a56f-5797-d25d50b7c06f",
+				"answer": "Bjarne Stroustrup",
+				"correct": true
+			},
+			{
+				"_id": "7a53cab5-f47f-40cb-d68d-86470ef77d54",
+				"answer": "Brendan Eich",
+				"correct": false
+			},
+			{
+				"_id": "f0022a14-96e7-ace0-c96e-7ab7c6ef82f2",
+				"answer": "Larry Wall",
+				"correct": false
+			}
+		],
+		"bloomsObjectiveLevel": "",
+		"guidance": "Bjarne Stroustrup is the creator of C\\++. Stroustrup began work on a successor to the C language in 1982 as a member of Bell Labs. The first version of C\\++ was released in 1985.",
+		"incorrectPoints": 0,
+		"instructions": "## Multiple Choice Question\nWho is the creator of C++?",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Practice MCQ",
+		"points": 1,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponse": true,
+		"showName": false
+	},
+	"taskId": "multiple-choice-1981899322",
+	"type": "multiple-choice"
+}
